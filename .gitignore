@@ -1,0 +1,5 @@
+config/naver.php
+config/db.php
+*.log
+.DS_Store
+config.php
