@@ -3,10 +3,10 @@
 // 이 파일을 config/db.php 로 복사한 뒤, 아래 값을 실제 서버 정보로 채우세요.
 // config/db.php 는 .gitignore 에 등록되어 있어 GitHub 에 올라가지 않습니다.
 
-$DB_HOST = "YOUR_DB_PRIVATE_DOMAIN";   // 예: 10.0.40.6
-$DB_USER = "YOUR_DB_USER";
-$DB_PASS = "YOUR_DB_PASSWORD";         // 절대 GitHub에 올리지 말 것!
-$DB_NAME = "YOUR_DB_NAME";             // 예: projectdb
+$DB_HOST = "YOUR_DB_PRIVATE_DOMAIN";   // DB 내부 도메인/IP
+$DB_USER = "YOUR_DB_USER";             // DB 계정명
+$DB_PASS = "YOUR_DB_PASSWORD";         // DB 비밀번호. 절대 GitHub에 올리지 말 것!
+$DB_NAME = "YOUR_DB_NAME";             // DB 이름
 
 // DEMO_MODE: DB 연결이 안 되거나(또는 PHP에 mysqli 확장이 꺼져 있으면)
 // 자동으로 더미 데이터로 화면만 보여줍니다.
